@@ -1,0 +1,46 @@
+body{
+ background-image: url("Image/black.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px 100%;
+}
+
+.side{
+  float: left;
+  width: 20%;
+}
+
+h5{
+  color: red;
+  font-weight: 900;
+  border: 2px solid red;
+  width: 55px;
+}
+
+i{
+  color: #FFA500;
+}
+
+b, p{
+  color: white;
+}
+
+.name{
+  padding-left: 25px;
+}
+#name{
+  padding-left: 50px;
+}
+
+.gambar{
+  border-radius: 50px;
+  width: 200px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.main{
+  position: relative;
+  top: 25px;
+  float: right;
+  width: 80%;
+}
