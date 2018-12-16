@@ -1,12 +1,17 @@
 body{
- background-image: url("Image/black.jpg");
-  background-repeat: no-repeat;
-  background-size: 250px 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.gambar{
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
 .side{
   float: left;
   width: 20%;
+  background-color: black;
 }
 
 h5{
@@ -39,8 +44,31 @@ b, p{
 }
 
 .main{
-  position: relative;
-  top: 25px;
-  float: right;
+  margin-top: 100px;
+  float: left;
   width: 80%;
+}
+
+.main h1{
+  width: 1000px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+
+.main p{
+  font-family: Arial;
+  padding-left: 50px;
+  color : brown;
+}
+.main b{
+  font-family: Arial;
+  padding-left: 50px;
+  color: blue;
+}
+
+.main ul{
+  padding-left: 100px;
 }
